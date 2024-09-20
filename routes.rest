@@ -1,5 +1,7 @@
-//all contacts request
-GET http://localhost:3000/contacts
+//single contacts request
+GET https://cse341-project1-contacts.onrender.com/contacts/66ed2c97e7da3bd294b1f349
+###
 
-//single contact request
-GET http://localhost:3000/contacts/66ed2c97e7da3bd294b1f349
+//all contacts request
+GET https://cse341-project1-contacts.onrender.com/contacts
+###
