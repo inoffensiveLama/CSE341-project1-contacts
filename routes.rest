@@ -1,7 +1,77 @@
-//single contacts request
-GET https://cse341-project1-contacts.onrender.com/contacts/66ed2c97e7da3bd294b1f349
-###
+//Localhost links
 
-//all contacts request
-GET https://cse341-project1-contacts.onrender.com/contacts
-###
+###single contacts request
+GET http://localhost:3000/contacts/66f20e02f5eba225a12be4ea
+
+
+###all contacts request
+GET http://localhost:3000/contacts
+
+
+###Create contact
+POST http://localhost:3000/contacts
+content-type: application/json
+
+{
+    "firstName": "Ashley",
+    "lastName": "Weaver",
+    "email": "aWeaver@test.com",
+    "favoriteColor": "Brown",
+    "birthday": "1994-12-05"
+}
+
+###update contact
+PUT http://localhost:3000/contacts/66f20e02f5eba225a12be4ea
+content-type: application/json
+
+{
+    "firstName": "Ashley",
+    "lastName": "Weaver but updated",
+    "email": "aWeaver@test.com",
+    "favoriteColor": "Brown",
+    "birthday": "1994-12-05"
+}
+
+###single contacts request
+DELETE http://localhost:3000/contacts/66f20a27306b952eada88a8d
+
+
+
+
+
+//Localhost links
+
+###single contacts request
+GET http://localhost:3000/contacts/66f20e02f5eba225a12be4ea
+
+
+###all contacts request
+GET http://localhost:3000/contacts
+
+
+###Create contact
+POST http://localhost:3000/contacts
+content-type: application/json
+
+{
+    "firstName": "Ashley",
+    "lastName": "Weaver",
+    "email": "aWeaver@test.com",
+    "favoriteColor": "Brown",
+    "birthday": "1994-12-05"
+}
+
+###update contact
+PUT http://localhost:3000/contacts/66f20e02f5eba225a12be4ea
+content-type: application/json
+
+{
+    "firstName": "Ashley",
+    "lastName": "Weaver but updated",
+    "email": "aWeaver@test.com",
+    "favoriteColor": "Brown",
+    "birthday": "1994-12-05"
+}
+
+###single contacts request
+DELETE http://localhost:3000/contacts/66f20a27306b952eada88a8d
