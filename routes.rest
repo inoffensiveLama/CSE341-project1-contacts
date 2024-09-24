@@ -1,15 +1,15 @@
-//Localhost links
+//render links
 
 ###single contacts request
-GET http://localhost:3000/contacts/66f20e02f5eba225a12be4ea
+GET https://cse341-project1-contacts.onrender.com/contacts/66ed2c44e7da3bd294b1f346
 
 
 ###all contacts request
-GET http://localhost:3000/contacts
+GET https://cse341-project1-contacts.onrender.com/contacts
 
 
 ###Create contact
-POST http://localhost:3000/contacts
+POST https://cse341-project1-contacts.onrender.com/contacts
 content-type: application/json
 
 {
@@ -21,7 +21,7 @@ content-type: application/json
 }
 
 ###update contact
-PUT http://localhost:3000/contacts/66f20e02f5eba225a12be4ea
+PUT https://cse341-project1-contacts.onrender.com/contacts/66f2117222565e7d3f4b3a31
 content-type: application/json
 
 {
@@ -33,7 +33,7 @@ content-type: application/json
 }
 
 ###single contacts request
-DELETE http://localhost:3000/contacts/66f20a27306b952eada88a8d
+DELETE https://cse341-project1-contacts.onrender.com/contacts/66f2117222565e7d3f4b3a31
 
 
 
